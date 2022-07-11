@@ -17,7 +17,7 @@ while True:
         if (user_input == '1'):
             os.system('clear')
             menu.banner()
-            print(color.RED + "[*] Enter the number without -[0,98].")
+            print(color.RED + "[*] Enter the number without -[98] example (09123456789.")
             try:
                 number = input(color.LIGHTRED_EX + "[+] Enter the target phone number :")
             except:
